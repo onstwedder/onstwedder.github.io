@@ -6,6 +6,10 @@ layout: page
 
 {% assign usenetfuns = paginator.usenetfuns | default: site.usenetfuns %}
 
+{% if usenetfuns.size == 0 %}
+  <p>No posts found.</p>
+{% endif %}
+
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   {% for post in usenetfuns %}

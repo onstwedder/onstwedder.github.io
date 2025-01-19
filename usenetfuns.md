@@ -1,6 +1,6 @@
 ---
 layout: usenetfuns
-title: Funny message on usenet
+title: Funny messages from usenet
 subtitle: Usenet and newsgroups from the 90s.
 ---
 
