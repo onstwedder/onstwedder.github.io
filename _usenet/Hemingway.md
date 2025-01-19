@@ -1,5 +1,5 @@
 ---
-layout: usenet
+layout: minimal
 title: Hemingway
 ---
 
