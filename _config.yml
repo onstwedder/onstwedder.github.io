@@ -43,6 +43,10 @@ round-avatar: true
 #title-img: /path/to/image
 
 
+# collections add door Martijn
+collections:
+  - usenetfuns
+
 #####################################
 # --- Footer social media links --- #
 #####################################
