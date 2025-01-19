@@ -46,7 +46,8 @@ round-avatar: true
 # collections add door Martijn
 collections:
   usenetfuns:
-    output: true 
+    output: true
+    sort_by: title
 
 #####################################
 # --- Footer social media links --- #
