@@ -8,45 +8,45 @@ layout: page
 
 {% if usenetfuns.size == 0 %}
   <p>No posts found.</p>
-{% else %}
-  <h1 class="page-heading">Usenetfuns gevonden</h1>
-  aantal gevonden: {{ usenetfuns.size }}
 {% endif %}
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<ul class="posts-list list-unstyled" role="list">
-  {% for usenetfun in usenetfuns %}
-  <li class="post-preview">
-    <article>
+{% assign columns = 3 %}
+{% assign countpercolumn = usenetfuns.size | divided_by: columns %}
+<h2>{{ countpercolumn }} {{ usenetfuns.size }} div {{ columns }} </h2>
+{% assign remainder = usenetfuns.size | modulo: columns %}
 
- 
-      <a href="{{ usenetfun.url | absolute_url }}">
-        <h2 class="post-title">{{ usenetfun.title | strip_html }}</h2>
-      </a>
-
-     </article>
-  </li>
-  {% endfor %}
-</ul>
-
-
-{% if paginator.total_pages > 1 %}
-<ul class="pagination main-pager">
-  {% if paginator.previous_page %}
-  <li class="page-item previous">
-    <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
-      <i class="fas fa-arrow-left" alt="Newer Posts"></i>
-      <span class="d-none d-sm-inline-block">Newer Posts</span>
-    </a>
-  </li>
+{% for i in (1..columns) %}
+  {% if remainder != 0 %}
+    {% assign actualcountpercolumn = actualcountpercolumn | append: countpercolumn | plus: 1 | append: ',' %}
+  {% else %}
+    {% assign actualcountpercolumn = actualcountpercolumn | append: countpercolumn | append: ',' %}
   {% endif %}
-  {% if paginator.next_page %}
-  <li class="page-item next">
-    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-      <span class="d-none d-sm-inline-block">Older Posts</span>
-      <i class="fas fa-arrow-right" alt="Older Posts"></i>
-    </a>
-  </li>
-  {% endif %}
-</ul>
+
+{% endfor %}
+{% assign actualcountpercolumn = actualcountpercolumn | split: ',' %}
+
+{% assign columns = 2 %}
+{% for i in (0..columns ) %}
+  <p>Actual Count Per Column {{ i }}: {{ actualcountpercolumn[i] }}</p>
+{% endfor %}
+
+{% assign start = 0 | minus : actualcountpercolumn[0] %}
+{% assign end = 0 %}
+
+{% if usenetfuns.size > 0 %}
+  <div class="row">
+    {% for i in (0..columns) %}
+      <div class="col-md-4">
+        {% assign start = start | plus: actualcountpercolumn[i] %}
+        {% assign end = start | plus: actualcountpercolumn[i] | minus: 1 %}
+        {% assign column_usenetfuns = usenetfuns | slice: start, end %}
+        <p>Start: {{ start }}</p>
+        <p>End: {{ end }}</p>
+        
+        {% for usenetfun in column_usenetfuns %}
+          <a href="{{ usenetfun.url | absolute_url }}">{{ usenetfun.title }}</a>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
 {% endif %}
