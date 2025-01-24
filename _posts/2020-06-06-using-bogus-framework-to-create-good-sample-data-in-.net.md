@@ -9,6 +9,9 @@ tags: [c#, dotnet, test, tutorial]
 author: Martijn
 ---
 
+originally published: 6 June 2020   
+updated: 24 Januari 2025   
+
 Whenever you create a unittest or just need some sample data, you'll probably begin by making up a couple of testvalues. Your test UI-screen looks nice, everything is lined up perfectly fine. And then when your program goes live, some user has a really long name and another one has a name with a diacritic in it (you know: e.g. a ç) and someone points out that your UI looks weird.
 
 No worries, of course, you fix those cases and even think of another thing that could go have gone wrong in the progress. Suddenly you have written out quite some lines of sample data and you wonder how many special cases you missed? Do you need more sampledata? How much will be enough? You don't have time to write 1000s of lines with intelligent sample data.
