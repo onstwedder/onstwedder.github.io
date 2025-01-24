@@ -21,11 +21,12 @@ author: Martijn Onstwedder
 
 navbar-links:
   About Me: "aboutme"
+  Blogs : ""
   Usenetfun: "usenetfuns"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://onstwedder.com"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://onstwedder.com"
 
 ################
 # --- Logo --- #
@@ -101,7 +102,7 @@ rss-description: all that you have is your soul
 share-links-active:
   twitter: false
   facebook: false
-  linkedin: true
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
