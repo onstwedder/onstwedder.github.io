@@ -15,5 +15,6 @@ In article Default User wrote:
 >> Yes, I admitted that when I said it was both wrong and ambiguous.   
 >   
 >I misinterpreted that statement. In this case, *I* was wrong.   
+
 It''s Usenet, but not as we know it.   
    

@@ -12,6 +12,7 @@ Newsgroups: soc.history.what-if
 > Itsack Shamir, vieux militant sioniste et ancien premier d'Israël, sous   
 > le titre 'Ma vie pour Israêl'.   
 >   
+
 So there you have it folks. This is what off-charter non-historical   
 present-day politics postfests get you. First we get unwanted Nazi   
 Holocaust deniers posting on s.h.w-i. Now we have people posting in   

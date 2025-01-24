@@ -14,6 +14,7 @@ Newsgroups: alt.games.battlefield1942
 >   
 > I don't know, I've never gammed before. Does it hurt?   
 >   
+
 Only if there are no admenstruators present on the sever.   
    
    

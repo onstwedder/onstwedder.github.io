@@ -3,8 +3,7 @@ layout: usenetfun
 title: Old   
 ---   
    
-   
- Subject: Re: Getting old.   
+Subject: Re: Getting old.   
 From: &quot;RogueXV&quot;   
 Newsgroups: soc.culture.irish, alt.folklore.computers   
    
@@ -17,7 +16,7 @@ Newsgroups: soc.culture.irish, alt.folklore.computers
 > effect of living in Oxford.  I'm off to see a Shakespeare play tonight,   
 > I find that more often than not the radio's tuned into Classic FM, I   
 > even own the full 20 volume OED.  Hell, I can even remember how to   
- > use a pen, even if it is a biro.  I'm a subscriber to the Folio Society   
+> use a pen, even if it is a biro.  I'm a subscriber to the Folio Society   
 > and increasingly I find that cheap fizzy lager is being eschewed in   
 > favour of quality bottled beers and fine Irish whiskeys.  I've just   
 > eaten a bloody _salad_.  I find I'm tentatively hanging on to bawdy   
@@ -29,6 +28,7 @@ Newsgroups: soc.culture.irish, alt.folklore.computers
 >   
 > I am now Old.   
 >   
+
 Chris, not to worry you're not old, you've simply grown up.  You are now mature and cultured with an eye for the finer things in life.   
 .   
 .   

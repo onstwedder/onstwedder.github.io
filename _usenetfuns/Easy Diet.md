@@ -17,6 +17,7 @@ On Wed, 7 Dec 2005, &quot;Ed&quot; wrote:
 >and a EFT pulled up to the cashier and ordered 2 double cheeseburgers and a   
 >diet coke. I thought the order might be for two people. Wrong. What''s with   
 >the diet beverage?   
+
 Hey I went on that Slim Fast diet. You know that powder you mix with   
 skim milk and you know something, it''s not half bad. You put in a few   
 scoops of ice cream and some chocolate syrup and it''s pretty darn   

@@ -15,6 +15,7 @@ Konrad Gaertner wrote:
 >   
 > This being Usenet, I'd say roughly 17%.   
 >   
+
 This being Usenet, I have to say 18%.   
    
    

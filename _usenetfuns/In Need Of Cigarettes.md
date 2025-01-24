@@ -12,6 +12,7 @@ On Thu, 27 Jan 2005, Russell Stewart wrote:
 >If I have to go several hours without a cigarette, I may really,   
 >*really* want a cigarette, but I'm not going to tear someone's   
 >head off.   
+
 Sissy.   
    
    

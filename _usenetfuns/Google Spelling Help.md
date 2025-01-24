@@ -19,6 +19,7 @@ Newsgroups: alt.folklore.urban
 > When you ran your google search, didn't you notice the 'Did you   
 > mean: genealogy?' in bold italics at the top of the page?   
 >   
+
 I think that's a newish feature, I use it that way, too.   
 It is so polite: 'Did you mean: genealogy?' As opposed to: 'It's spelled   
 'genealogy', you moron.'   

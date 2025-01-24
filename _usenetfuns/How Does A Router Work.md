@@ -13,6 +13,7 @@ Binyamin Dissen wrote:
 > I conceptually understand how a router/gateways works, but I would   
 > like to see some detail on what the packets look like   
 >   
+
 Here's a typical example:   
    
 010010000110010101110010011001010010011101110011001   

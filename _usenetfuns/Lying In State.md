@@ -26,6 +26,7 @@ David Bilek wrote in message
 > I thought &quot;lying in state&quot; was what politicians did after they died,   
 > while &quot;lying&quot; was what they did before they died.   
 >   
+
 Now I don't think that you should suggest that all politicians lie.   
    
 It's not all of them, but the politicians who do lie give the other 5% a bad name.   

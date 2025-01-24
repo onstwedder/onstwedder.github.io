@@ -25,5 +25,8 @@ about to get served at the bar when an almighty fight broke out in the other
 bar. There were literally cast iron tables flying through the air...   
    
 They shut the pub and people were streaming out with blood on their faces   
-and at least 6 police cars outside   
-   
+and at least 6 police cars outside. complete mayhem. As I got to the exit I
+asked one of the policemen, "Do you know of any other nice pubs around
+here?"
+
+Quick as a flash he replied, "What's wrong with this one?"

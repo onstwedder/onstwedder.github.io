@@ -1,52 +1,76 @@
 ---
-layout: page
+layout: base
 ---
 
-{{ content }}
+{% include header.html type="page" %}
 
-{% assign usenetfuns = paginator.usenetfuns | default: site.usenetfuns %}
-
-{% if usenetfuns.size == 0 %}
-  <p>No posts found.</p>
-{% endif %}
-
-{% assign columns = 3 %}
-{% assign countpercolumn = usenetfuns.size | divided_by: columns %}
-<h2>{{ countpercolumn }} {{ usenetfuns.size }} div {{ columns }} </h2>
-{% assign remainder = usenetfuns.size | modulo: columns %}
-
-{% for i in (1..columns) %}
-  {% if remainder != 0 %}
-    {% assign actualcountpercolumn = actualcountpercolumn | append: countpercolumn | plus: 1 | append: ',' %}
-  {% else %}
-    {% assign actualcountpercolumn = actualcountpercolumn | append: countpercolumn | append: ',' %}
-  {% endif %}
-
-{% endfor %}
-{% assign actualcountpercolumn = actualcountpercolumn | split: ',' %}
-
-{% assign columns = 2 %}
-{% for i in (0..columns ) %}
-  <p>Actual Count Per Column {{ i }}: {{ actualcountpercolumn[i] }}</p>
-{% endfor %}
-
-{% assign start = 0 | minus : actualcountpercolumn[0] %}
-{% assign end = 0 %}
-
-{% if usenetfuns.size > 0 %}
+<main class="container-fluid" style="padding-left:60px">
   <div class="row">
-    {% for i in (0..columns) %}
-      <div class="col-md-4">
-        {% assign start = start | plus: actualcountpercolumn[i] %}
-        {% assign end = start | plus: actualcountpercolumn[i] | minus: 1 %}
-        {% assign column_usenetfuns = usenetfuns | slice: start, end %}
-        <p>Start: {{ start }}</p>
-        <p>End: {{ end }}</p>
-        
-        {% for usenetfun in column_usenetfuns %}
-          <a href="{{ usenetfun.url | absolute_url }}">{{ usenetfun.title }}</a>
-        {% endfor %}
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+      {% if page.before-content %}
+        <div class="before-content">
+          {% for file in page.before-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {{ content }}
       </div>
-    {% endfor %}
+      </div>
+
+      {% assign usenetfuns = paginator.usenetfuns | default: site.usenetfuns %}
+
+      {% if usenetfuns.size == 0 %}
+        <p>No posts found.</p>
+      {% endif %}
+
+      {% assign columns = 3 %}
+      {% assign countpercolumn = usenetfuns.size | divided_by: columns %}
+      {% assign remainder = usenetfuns.size | modulo: columns %}
+      {% assign actualcountpercolumn = '' %}
+
+      {% assign columns = columns | minus: 1 %}
+
+      {% for i in (0..columns) %}
+        {% if i < remainder %}
+            {% assign actualcountpercolumn = actualcountpercolumn | append: countpercolumn | plus: 1 | append: ',' %}
+        {% else %}
+            {% assign actualcountpercolumn = actualcountpercolumn | append: countpercolumn | append: ',' %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign actualcountpercolumn = actualcountpercolumn | split: ',' %}
+
+      {% assign start = 0 %}
+
+      <div class="row">
+      {% if usenetfuns.size > 0 %}
+          {% for i in (0..columns) %}
+            <div class="col-4">
+              {% assign length = actualcountpercolumn[i]  %}
+              {% assign column_usenetfuns = usenetfuns | slice: start, length %}
+
+              {% for usenetfun in column_usenetfuns %}
+                <a href="{{ usenetfun.url | absolute_url }}">{{ usenetfun.title }}</a><br/>
+              {% endfor %}
+
+              {% assign start = start | plus: length %}
+            </div>
+          {% endfor %}
+      {% endif %}
+      </div>
+
+
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% include comments.html %}
+    </div>
   </div>
-{% endif %}
+</main>

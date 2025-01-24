@@ -15,6 +15,7 @@ Poisonmail wrote:
 >Are there any newsgroups for people who accidentally ate napkins...   
 >and enjoy it?   
 >   
+
 That depends.  Cloth napkins, sure, you can talk about that here. Paper napkins... what kind of sick fuck are you?   
    
    

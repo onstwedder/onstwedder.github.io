@@ -14,6 +14,7 @@ In this article howard wrote:
 >Christian icons have power. Simak had a novel where a piece   
 >of the Cross worked as advertised.   
 >   
+
 What, you nail someone to a cross and eventually they die?   
    
    

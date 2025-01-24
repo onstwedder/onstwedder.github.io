@@ -22,6 +22,7 @@ Robert St. Amant wrote:
 > Hey, if you can put six thirds of your effort into a project, no   
 > wonder you get so much done :-).   
 >   
+
 No, but I may have lead now on why I have so much trouble estimating projects.   
    
    

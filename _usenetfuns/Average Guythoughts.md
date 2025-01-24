@@ -18,8 +18,9 @@ In article wthyde writes
 >>   
 >> It's not really relevant any more,   
 >   
->        Sadly true. Whole minutes go by now when I don't think   
->        about women.   
+> Sadly true. Whole minutes go by now when I don't think   
+> about women.   
+
 They do say the average guy thinks about sex once every six tits.   
    
    

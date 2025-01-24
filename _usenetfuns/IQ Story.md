@@ -21,13 +21,13 @@ David T. Bilek wrote:
 >>concerned. The children are given a truth serum so they cannot lie   
 >>about the anwers on the test. The boy takes the exam and finds it   
 >>very easy. The kicker (you don't find out until the very end of   
->>the story is that the boy's parents are notified it was necessary to   
+>>the story) is that the boy's parents are notified it was necessary to   
 >>terminate the boy because he exceeded the intelligence quotient   
 >>allowed in their society.   
 >   
 > Is this a joke of some sort I'm missing?   
 > This is the exact same story   
-> ID that was just posted a week or two ago...   
+> that was just posted a week or two ago...   
 >   
 You can remember back that far accurately, eh?  We know how to deal with your kind.   
    

@@ -15,6 +15,7 @@ Steven D. Litvintchouk wrote:
 > There's a difference.  Humans would never be so stupid as to create   
 > machines that they couldn't disable whenever they wanted to.   
 >   
+
 Any sentence that begins 'Humans would never be so stupid as to...' is very probably wrong.   
    
    

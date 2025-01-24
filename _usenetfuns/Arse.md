@@ -15,6 +15,7 @@ Christopher G Brannigan wrote in message
 > well it's an exit, not an entrance...where food comes out...fucking   
 > mingin...   
 >   
+
 Might be food to you.... not to the rest of us though...   
    
    

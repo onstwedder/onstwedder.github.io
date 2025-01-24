@@ -1,5 +1,5 @@
 ---
 layout: usenetfuns
 title: Funny messages from usenet
-subtitle: Usenet and newsgroups from the 90's.
+subtitle: newsgroupmessages from about 20 years ago.
 ---
