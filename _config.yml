@@ -20,8 +20,7 @@ author: Martijn Onstwedder
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Blogs : ""
+  Home: "/"
   Usenetfun: "usenetfuns"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -269,7 +268,7 @@ timezone: "Europe/Amsterdam"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+# paginate: 5
 
 kramdown:
   input: GFM

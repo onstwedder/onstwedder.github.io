@@ -1,0 +1,21 @@
+---
+layout: post
+title: Tipping my toes into godot.
+subtitle:  Creating seabatlle in godot 4.
+cover-img: /assets/img/insung.jpg
+thumbnail-img: /assets/img/insung-tut.jpg
+share-img: /assets/img/path.jpg
+tags: [godot, programming, experience, TIL]
+author: Martijn
+---
+
+Lately, when I have been looking into new programming languages I decided to do so by comparing how easy it is for me to build a 1 person seabattle / battleships game in them. Last year, I had some time to broaden my languages and I picked up Rust, Go and Typescript. Now, I say picked up, but let's be honest, I tipped my toe in to them.
+Apart from three courses (one for each language) and said battleship game, I haven't done much or any other coding in those languages. Hence, I am not an expert in any of them. I do however have been coding lots in years before, So I have a certain coders' way of thinking. My getting acquanted to the language is more or less understanding why the language was created and how easy it is for me to understand the basics and whether or not I think their basics has flaws or issues.
+And I guess, I (un)conciously compare them also to C#. 
+I like C#. I came from Pascal, Delphi, LotusScript, PHP, Java, Objective-C, Swift, Javascript and eventually ended up working in Python and C#. C# change a lot and new things get introduced fast. But when playing around with Rust and Go I realized that when I wrote a program that transformed over 500.000 PDF-documents  into slightly adjusted other PDF-Documents - it would have probably been way faster (performance wise) if written in Go or Rust.
+Anyway, I digress. I have also played around with Unity in the past and though there is no real reason to not use Unity, as I don't think I am going to create a bestselling game or even a releasable game anytime soon (or later), i figured to have a look at Godot. With no experience at all, I have decided to create a battleships game that should end up like those old flash battleship games on webpages. 
+First of, focus on a map, generating a few ships, input where you want your missele to hit, if you hit give some feedback that you hit a boat, or sunk it. And repeat until all the boats sunk. Eventually make it multiplayer and try to add some AI (the old kind, not the OpenAI kind) that will try to win.
+So that's the goal I am halfheartedly committing to. Not with an enddate. Just...
+pushing myself forward.
+And on this site I will probably try to keep some record of how it is going and what i walked into. So maybe one day, someone might accidentaly come across this page and think well I could have done that better than this guy.
+Or like Victor Hugo said “I'm not totally useless. I can be used as a bad example.”
